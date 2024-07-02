@@ -191,7 +191,7 @@ export default function Main() {
             <Link className={styles.headerA}  href="/category">
               Меню
             </Link>
-            <Link onClick={logOut} className={styles.headerA}>Вихід</Link>
+            <p onClick={logOut} className={styles.headerA}>Вихід</p>
           </div>
       </div>
         <div className={styles.container}>
