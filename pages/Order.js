@@ -23,6 +23,7 @@ export function Order({ isOpen, onClose }) {
   const closeModal = () => {
     setAnimate(false);
     setTimeout(onClose, 300);
+    location.reload();
   };
 
   const [orderData, setOrderData] = useState({});
