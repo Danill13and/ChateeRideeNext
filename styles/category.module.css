@@ -1,0 +1,131 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #fff;
+}
+.h1 {
+  text-align: center;
+}
+.header {
+  background-color: black;
+  color: white;
+  padding: 10px 30px;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+.headerButtons {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  gap: 50px;
+  box-sizing: border-box;
+}
+.hr_line{
+  border: 2px #131313 solid;
+  width: 30%;
+}
+.conteiner{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 87.5vh;
+  background-image: url('../public/kafe.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; 
+  gap: 10px;
+  box-sizing: border-box;
+}
+.textDiv{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50vh;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.mainText{
+  text-align: center;
+  font-size: 20px;
+  color: #131313;
+}
+.wellcome{
+  font-size: 48px;
+  color: #131313;
+}
+.underWellcome{
+  font-size: 24px;
+  color: #131313;
+}
+.a{
+  text-decoration:none;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.name{
+  color: #131313;
+  cursor: pointer;
+  text-decoration:none;
+}
+.divLogo{
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 25px;
+}
+
+.logoName{
+  font-size: 32px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.prods {
+  width: 200px;
+  height: 250px;
+  background-color: white;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.image{
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 10px;
+}
+
+.h1{
+  text-align: center;
+}
+
+.button {
+  font-size: 16px;
+  cursor: pointer;
+  min-height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 129px;
+  height: 33px;
+  background: #E6FF9E;
+  color: rgb(38, 42, 36);
+  border-radius: 5px 0px;
+  border: none;
+  border: 2px solid rgb(0, 0, 0);
+}
