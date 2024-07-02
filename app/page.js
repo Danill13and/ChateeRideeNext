@@ -159,7 +159,7 @@ export default function Home() {
             <Link className={styles.a}  href="/category">
               Меню
             </Link>
-            <Link className={styles.a} onClick={logOut}>Вихід</Link>
+            <p className={styles.a} onClick={logOut}>Вихід</p>
           <div>
           </div>
           </div>
