@@ -58,6 +58,7 @@
   color: white;
   margin-left: 20px;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .searchInput {
