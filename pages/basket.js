@@ -266,7 +266,6 @@ const Basket = () => {
             <Image src="/icons8-croissant-96 1.png" alt="Chatte Ridée" width={50} height={50} />
             <span className={styles.logoText}>Chatte Ridée</span>
           </Link>
-          <input type="text" placeholder="Пошук" className={styles.search} />
           <nav className={styles.nav}>
             <Link href="/basket">Кошик</Link>
             <Link href="/category">Меню</Link>
