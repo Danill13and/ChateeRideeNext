@@ -173,7 +173,7 @@ export default function Category() {
               Меню
             </Link>
             
-            <Link onClick={logOut} className={styles.a}>Вихід</Link>
+            <p onClick={logOut} className={styles.a}>Вихід</p>
 
           </div>
         </div>
